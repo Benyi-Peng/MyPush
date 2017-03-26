@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4BC8B15D1E855B6F00142FB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC8B15C1E855B6F00142FB1 /* main.m */; };
-		4BC8B1601E855B6F00142FB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC8B15F1E855B6F00142FB1 /* AppDelegate.m */; };
-		4BC8B1631E855B6F00142FB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC8B1621E855B6F00142FB1 /* ViewController.m */; };
-		4BC8B1661E855B6F00142FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC8B1641E855B6F00142FB1 /* Main.storyboard */; };
+		4B8963F01E88087D00AA4F05 /* ByCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8963EF1E88087D00AA4F05 /* ByCController.m */; };
 		4BC8B1681E855B6F00142FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC8B1671E855B6F00142FB1 /* Assets.xcassets */; };
 		4BC8B16B1E855B6F00142FB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC8B1691E855B6F00142FB1 /* LaunchScreen.storyboard */; };
 		4BC8B1761E855B6F00142FB1 /* MyPushTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC8B1751E855B6F00142FB1 /* MyPushTests.m */; };
 		4BC8B1811E855B6F00142FB1 /* MyPushUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC8B1801E855B6F00142FB1 /* MyPushUITests.m */; };
+		4BC8B1BD1E86BD7400142FB1 /* ByAController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC8B1B31E86BD7400142FB1 /* ByAController.m */; };
+		4BC8B1BE1E86BD7400142FB1 /* ByBController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC8B1B51E86BD7400142FB1 /* ByBController.m */; };
+		4BC8B1BF1E86BD7400142FB1 /* ByTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC8B1B71E86BD7400142FB1 /* ByTabBarController.m */; };
+		4BC8B1C01E86BD7400142FB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC8B1BA1E86BD7400142FB1 /* AppDelegate.m */; };
+		4BC8B1C11E86BD7400142FB1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BC8B1BB1E86BD7400142FB1 /* Info.plist */; };
+		4BC8B1C21E86BD7400142FB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC8B1BC1E86BD7400142FB1 /* main.m */; };
+		4BC8B1C51E86BE3F00142FB1 /* Transformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC8B1C41E86BE3F00142FB1 /* Transformer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +39,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B8963EE1E88087D00AA4F05 /* ByCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByCController.h; sourceTree = "<group>"; };
+		4B8963EF1E88087D00AA4F05 /* ByCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByCController.m; sourceTree = "<group>"; };
 		4BC8B1581E855B6F00142FB1 /* MyPush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPush.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BC8B15C1E855B6F00142FB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4BC8B15E1E855B6F00142FB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4BC8B15F1E855B6F00142FB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4BC8B1611E855B6F00142FB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4BC8B1621E855B6F00142FB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4BC8B1651E855B6F00142FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BC8B1671E855B6F00142FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BC8B16A1E855B6F00142FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4BC8B16C1E855B6F00142FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BC8B1711E855B6F00142FB1 /* MyPushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPushTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC8B1751E855B6F00142FB1 /* MyPushTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPushTests.m; sourceTree = "<group>"; };
 		4BC8B1771E855B6F00142FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BC8B17C1E855B6F00142FB1 /* MyPushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC8B1801E855B6F00142FB1 /* MyPushUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPushUITests.m; sourceTree = "<group>"; };
 		4BC8B1821E855B6F00142FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BC8B1B21E86BD7400142FB1 /* ByAController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByAController.h; sourceTree = "<group>"; };
+		4BC8B1B31E86BD7400142FB1 /* ByAController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByAController.m; sourceTree = "<group>"; };
+		4BC8B1B41E86BD7400142FB1 /* ByBController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByBController.h; sourceTree = "<group>"; };
+		4BC8B1B51E86BD7400142FB1 /* ByBController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByBController.m; sourceTree = "<group>"; };
+		4BC8B1B61E86BD7400142FB1 /* ByTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByTabBarController.h; sourceTree = "<group>"; };
+		4BC8B1B71E86BD7400142FB1 /* ByTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByTabBarController.m; sourceTree = "<group>"; };
+		4BC8B1B91E86BD7400142FB1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4BC8B1BA1E86BD7400142FB1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4BC8B1BB1E86BD7400142FB1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BC8B1BC1E86BD7400142FB1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BC8B1C31E86BE3F00142FB1 /* Transformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transformer.h; sourceTree = "<group>"; };
+		4BC8B1C41E86BE3F00142FB1 /* Transformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transformer.m; sourceTree = "<group>"; };
+		4BC8B1C61E87490C00142FB1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,25 +113,21 @@
 		4BC8B15A1E855B6F00142FB1 /* MyPush */ = {
 			isa = PBXGroup;
 			children = (
-				4BC8B15E1E855B6F00142FB1 /* AppDelegate.h */,
-				4BC8B15F1E855B6F00142FB1 /* AppDelegate.m */,
-				4BC8B1611E855B6F00142FB1 /* ViewController.h */,
-				4BC8B1621E855B6F00142FB1 /* ViewController.m */,
-				4BC8B1641E855B6F00142FB1 /* Main.storyboard */,
+				4BC8B1B81E86BD7400142FB1 /* other */,
+				4BC8B1B21E86BD7400142FB1 /* ByAController.h */,
+				4BC8B1B31E86BD7400142FB1 /* ByAController.m */,
+				4BC8B1B41E86BD7400142FB1 /* ByBController.h */,
+				4BC8B1B51E86BD7400142FB1 /* ByBController.m */,
+				4B8963EE1E88087D00AA4F05 /* ByCController.h */,
+				4B8963EF1E88087D00AA4F05 /* ByCController.m */,
+				4BC8B1B61E86BD7400142FB1 /* ByTabBarController.h */,
+				4BC8B1B71E86BD7400142FB1 /* ByTabBarController.m */,
+				4BC8B1C31E86BE3F00142FB1 /* Transformer.h */,
+				4BC8B1C41E86BE3F00142FB1 /* Transformer.m */,
 				4BC8B1671E855B6F00142FB1 /* Assets.xcassets */,
 				4BC8B1691E855B6F00142FB1 /* LaunchScreen.storyboard */,
-				4BC8B16C1E855B6F00142FB1 /* Info.plist */,
-				4BC8B15B1E855B6F00142FB1 /* Supporting Files */,
 			);
 			path = MyPush;
-			sourceTree = "<group>";
-		};
-		4BC8B15B1E855B6F00142FB1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4BC8B15C1E855B6F00142FB1 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		4BC8B1741E855B6F00142FB1 /* MyPushTests */ = {
@@ -138,6 +146,18 @@
 				4BC8B1821E855B6F00142FB1 /* Info.plist */,
 			);
 			path = MyPushUITests;
+			sourceTree = "<group>";
+		};
+		4BC8B1B81E86BD7400142FB1 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				4BC8B1B91E86BD7400142FB1 /* AppDelegate.h */,
+				4BC8B1BA1E86BD7400142FB1 /* AppDelegate.m */,
+				4BC8B1BB1E86BD7400142FB1 /* Info.plist */,
+				4BC8B1BC1E86BD7400142FB1 /* main.m */,
+				4BC8B1C61E87490C00142FB1 /* PrefixHeader.pch */,
+			);
+			path = other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +268,7 @@
 			files = (
 				4BC8B16B1E855B6F00142FB1 /* LaunchScreen.storyboard in Resources */,
 				4BC8B1681E855B6F00142FB1 /* Assets.xcassets in Resources */,
-				4BC8B1661E855B6F00142FB1 /* Main.storyboard in Resources */,
+				4BC8B1C11E86BD7400142FB1 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC8B1631E855B6F00142FB1 /* ViewController.m in Sources */,
-				4BC8B1601E855B6F00142FB1 /* AppDelegate.m in Sources */,
-				4BC8B15D1E855B6F00142FB1 /* main.m in Sources */,
+				4B8963F01E88087D00AA4F05 /* ByCController.m in Sources */,
+				4BC8B1C21E86BD7400142FB1 /* main.m in Sources */,
+				4BC8B1C01E86BD7400142FB1 /* AppDelegate.m in Sources */,
+				4BC8B1BD1E86BD7400142FB1 /* ByAController.m in Sources */,
+				4BC8B1C51E86BE3F00142FB1 /* Transformer.m in Sources */,
+				4BC8B1BF1E86BD7400142FB1 /* ByTabBarController.m in Sources */,
+				4BC8B1BE1E86BD7400142FB1 /* ByBController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +335,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4BC8B1641E855B6F00142FB1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4BC8B1651E855B6F00142FB1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4BC8B1691E855B6F00142FB1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -422,7 +438,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MyPush/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyPush/other/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MyPush/other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wethinkvr.vrbobo.MyPush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +451,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MyPush/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyPush/other/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MyPush/other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wethinkvr.vrbobo.MyPush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +525,7 @@
 				4BC8B1871E855B6F00142FB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BC8B1881E855B6F00142FB1 /* Build configuration list for PBXNativeTarget "MyPushTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +534,7 @@
 				4BC8B18A1E855B6F00142FB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BC8B18B1E855B6F00142FB1 /* Build configuration list for PBXNativeTarget "MyPushUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +543,7 @@
 				4BC8B18D1E855B6F00142FB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
