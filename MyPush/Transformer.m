@@ -43,10 +43,6 @@ static CGFloat const kVelocity = 2;
     UIViewController *fromViewController = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
     UIView *containerView = [transitionContext containerView];
     
-//    NSLog(@"preIndex:%zd",self.preIndex);
-//    NSLog(@"selectIndex:%zd",self.selectedIndex);
-    
-    NSLog(@"transform : %@",self);
     CGFloat translation = containerView.bounds.size.width + kPadding;
     CGAffineTransform transform = CGAffineTransformMakeTranslation(_preIndex > _selectedIndex ? translation : -translation, 0);
     toViewController.view.transform = CGAffineTransformInvert(transform);
@@ -59,14 +55,6 @@ static CGFloat const kVelocity = 2;
         fromViewController.view.transform = CGAffineTransformIdentity;
         [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
     }];
-    
-//    [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
-//        fromViewController.view.transform = transform;
-//        toViewController.view.transform = CGAffineTransformIdentity;
-//    } completion:^(BOOL finished) {
-//        fromViewController.view.transform = CGAffineTransformIdentity;
-//        [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
-//    }];
 }
 
 //UIViewControllerContextTransitioning

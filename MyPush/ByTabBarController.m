@@ -46,7 +46,6 @@
     [self addChildViewController:nav3];
     
     self.transform = [[Transformer alloc] init];
-    NSLog(@"init transform : %@",self.transform);
     self.delegate = self.transform;
 }
 
@@ -65,9 +64,6 @@
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item {
     self.transform.selectedIndex = item.tag;
     self.transform.preIndex = self.selectedIndex;
-    NSLog(@"tabVC transform: %@",self.transform);
-//    NSLog(@"preIndex:%zd",self.transform.preIndex);
-//    NSLog(@"selectIndex:%zd",self.transform.selectedIndex);
 }
 
 /*
